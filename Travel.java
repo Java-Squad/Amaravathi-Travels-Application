@@ -26,14 +26,14 @@ class Sample1 extends Sample //override
 
 abstract class Charge
 {
-abstract void cars();
+abstract void sample();
 }
 
 
 class Car extends Charge
 {
   
-     void cars()
+     void sample()
 	{
 	    
     	 Scanner sc=new Scanner(System.in);
@@ -315,7 +315,7 @@ public class Travelproject{
 		s.display();
 		
 		Charge c=new Car();
-		c.cars();
+		c.sample();
 		
 		
 	}
